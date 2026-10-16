@@ -109,7 +109,7 @@ export default function App() {
       {/* Floating WhatsApp Quick Contact Button */}
       <aside aria-label="Quick contact" className="fixed bottom-6 right-6 z-40">
         <a
-          href="https://wa.me/94771234567?text=Hello%20Flower%20Buds!%20I%20would%20like%20to%20inquire%20about%20wedding%20and%20function%20floral%20decorations."
+          href="https://wa.me/94778896644?text=Hello%20Flower%20Buds!%20I%20would%20like%20to%20inquire%20about%20wedding%20and%20function%20floral%20decorations."
           target="_blank"
           rel="noopener noreferrer"
           title="Chat directly with Flower Buds on WhatsApp"

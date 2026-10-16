@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, Mail, MapPin, Clock } from 'lucide-react';
+import { Phone, Mail, MapPin, Clock, Facebook, Instagram } from 'lucide-react';
 import { FlowerBudsLogo } from './FlowerBudsLogo.jsx';
 
 export const Footer = ({ onOpenBooking }) => {
@@ -18,10 +18,42 @@ export const Footer = ({ onOpenBooking }) => {
             <p className="text-xs sm:text-sm text-[#AAB4AD] max-w-sm leading-relaxed">
               Bespoke luxury wedding and event floral styling atelier with studios in Kurunegala and Homagama. Crafting immortal floral memories for weddings, traditional poruwa ceremonies, and functions islandwide.
             </p>
-            <div className="pt-2 flex items-center gap-4 text-xs text-[#C5B49E]">
-              <span className="flex items-center gap-1.5">
-                <Clock className="w-3.5 h-3.5" /> Studio Consultations: Tue – Sun, 9:00 AM – 6:30 PM
-              </span>
+            <div className="pt-2 space-y-2 text-xs text-[#C5B49E]">
+              <div className="flex items-center gap-1.5">
+                <Clock className="w-3.5 h-3.5" />
+                <span className="font-semibold">Business Hours</span>
+              </div>
+              <div className="pl-5 space-y-1 text-[#AAB4AD]">
+                <p>Monday: 8:30 AM – 5:00 PM</p>
+                <p>Tuesday – Sunday: 9:00 AM – 5:00 PM</p>
+              </div>
+            </div>
+            <div className="pt-2">
+              <div className="text-xs uppercase tracking-wider text-[#C5B49E] font-semibold mb-3">
+                Follow Our Work
+              </div>
+              <div className="flex items-center gap-3">
+                <a
+                  href="https://www.instagram.com/flowerbudslk/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Follow Flower Buds on Instagram"
+                  className="inline-flex items-center gap-2 rounded-full border border-[#465148] px-4 py-2 text-xs text-[#C5CFC8] hover:border-[#C5B49E] hover:text-white transition-colors"
+                >
+                  <Instagram className="w-4 h-4" />
+                  Instagram
+                </a>
+                <a
+                  href="https://www.facebook.com/share/1H1XmTJfwd/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Follow Flower Buds on Facebook"
+                  className="inline-flex items-center gap-2 rounded-full border border-[#465148] px-4 py-2 text-xs text-[#C5CFC8] hover:border-[#C5B49E] hover:text-white transition-colors"
+                >
+                  <Facebook className="w-4 h-4" />
+                  Facebook
+                </a>
+              </div>
             </div>
           </div>
 
@@ -68,11 +100,18 @@ export const Footer = ({ onOpenBooking }) => {
             </div>
             <div className="space-y-2 text-xs text-[#C5CFC8]">
               <a
-                href="tel:+94112345678"
+                href="tel:+94778896644"
                 className="flex items-center gap-2 hover:text-white transition-colors"
               >
                 <Phone className="w-4 h-4 text-[#C5B49E]" />
-                <span>+94 11 234 5678 / +94 77 123 4567</span>
+                <span>+94 77 889 6644 (WhatsApp)</span>
+              </a>
+              <a
+                href="tel:+94771043761"
+                className="flex items-center gap-2 hover:text-white transition-colors"
+              >
+                <Phone className="w-4 h-4 text-[#C5B49E]" />
+                <span>+94 77 104 3761</span>
               </a>
               <a
                 href="mailto:inquiries@flowerbuds.lk"

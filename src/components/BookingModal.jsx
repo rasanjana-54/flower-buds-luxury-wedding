@@ -59,7 +59,7 @@ export const BookingModal = ({
       (formData.specialRequests ? `*Notes:* ${formData.specialRequests}\n` : '') +
       `*Ref:* ${bookingReference || 'Web-Direct'}`;
 
-    return `https://wa.me/94771234567?text=${encodeURIComponent(text)}`;
+    return `https://wa.me/94778896644?text=${encodeURIComponent(text)}`;
   };
 
   return (
@@ -116,7 +116,7 @@ export const BookingModal = ({
                   <input
                     type="tel"
                     required
-                    placeholder="+94 77 123 4567"
+                    placeholder="+94 77 889 6644"
                     value={formData.phone}
                     onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                     className="w-full text-xs bg-white border border-[#DDD3C7] rounded-xl px-3.5 py-3 text-[#1E2320] focus:outline-hidden focus:border-[#223326] transition-colors"
