@@ -114,16 +114,16 @@ export const ServicesSection = ({ onSelectService }) => {
           {SERVICES_LIST.map((service) => (
             <div
               key={service.number}
-              className="bg-[#FAF8F5] p-8 rounded-xl border border-[#E8DFD3] hover:border-[#C4B29E] transition-all flex flex-col justify-between group"
+              className="bg-[#FAF8F5] p-8 rounded-xl border border-[#E8DFD3] hover:border-[#C4B29E] hover:shadow-md transition-all flex flex-col justify-between group"
             >
               <div>
                 <div className="flex items-center justify-between mb-4">
-                  <span className="font-serif text-2xl font-light text-[#8C6D58] tabular-nums">
+                  <span className="font-serif text-2xl font-light text-[#806294] tabular-nums">
                     {service.number}.
                   </span>
-                  <div className="w-2 h-2 rounded-full bg-[#D6C4B2] group-hover:bg-[#223326] transition-colors" />
+                  <div className="w-2 h-2 rounded-full bg-[#C7B1D8] group-hover:bg-[#806294] transition-colors" />
                 </div>
-                <h4 className="font-serif text-xl font-medium text-[#1E2320] mb-2 group-hover:text-[#5B3E31] transition-colors">
+                <h4 className="font-serif text-xl md:text-2xl font-medium text-[#352A3C] mb-3 bg-[#F1EAF6] border-l-2 border-[#B79CCB] rounded-r-md px-3 py-2 group-hover:bg-[#EAE0F1] transition-colors">
                   {service.title}
                 </h4>
                 <div className="text-xs uppercase tracking-wider text-[#8A7A6F] mb-3">

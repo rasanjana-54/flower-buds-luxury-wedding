@@ -30,7 +30,7 @@ export const DesignProcess = () => {
   ];
 
   return (
-    <section className="py-24 bg-[#F5EFE8] border-t border-[#EAE1D6]">
+    <section className="py-24 bg-[#EEE5F5] border-t border-[#DCCFEA]">
       <div className="max-w-7xl mx-auto px-6 md:px-10">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <div className="text-xs uppercase tracking-widest text-[#7C6354] font-medium mb-3">

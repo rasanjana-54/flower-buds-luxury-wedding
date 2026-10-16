@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArrowDown, Calendar, Sparkles } from 'lucide-react';
-import { heroImg } from '../data/flowerBudsData.js';
+import { poruwaImg } from '../data/flowerBudsData.js';
 
 export const Hero = ({ onOpenBooking, onExplorePortfolio }) => {
   return (
@@ -67,8 +67,8 @@ export const Hero = ({ onOpenBooking, onExplorePortfolio }) => {
           <div className="lg:col-span-6 relative">
             <div className="relative mx-auto rounded-2xl overflow-hidden shadow-xl aspect-16/9 lg:aspect-4/3 bg-[#EAE2D8] border border-[#E2D8CC] group">
               <img
-                src={heroImg}
-                alt="Luxury outdoor wedding ceremony floral arch and petal aisle by Flower Buds"
+                src={poruwaImg}
+                alt="Grand Sri Lankan Poruwa wedding stage framed with ivory flowers and gold details"
                 className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-102"
                 referrerPolicy="no-referrer"
               />
@@ -77,11 +77,11 @@ export const Hero = ({ onOpenBooking, onExplorePortfolio }) => {
               {/* Minimalist image caption */}
               <div className="absolute bottom-5 left-5 right-5 text-white flex items-end justify-between">
                 <div>
-                  <p className="text-xs uppercase tracking-wider text-white/80 font-medium">The Whispering Meadow Arch</p>
-                  <p className="font-serif text-lg text-white font-medium">Cinnamon Bentota Beach Lawn</p>
+                  <p className="text-xs uppercase tracking-wider text-white/80 font-medium">Sri Lankan Wedding Heritage</p>
+                  <p className="font-serif text-lg text-white font-medium">The Golden Lotus Poruwa</p>
                 </div>
                 <span className="text-xs text-white/90 bg-white/20 backdrop-blur-xs px-3 py-1 rounded-full">
-                  Over 3,400 stems
+                  Signature Floral Design
                 </span>
               </div>
             </div>
