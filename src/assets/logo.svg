@@ -1,0 +1,41 @@
+<svg viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" rx="60" fill="#43524b" />
+  <path
+    d="M 110 100 
+       C 160 125, 205 135, 235 155
+       L 235 325 
+       M 390 100 
+       C 340 125, 295 135, 265 155
+       L 265 325
+       M 110 100 
+       L 110 260 
+       C 110 395, 390 395, 390 260 
+       L 390 100"
+    stroke="#ffffff"
+    stroke-width="20"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M 250 110 
+       C 220 160, 175 220, 175 270 
+       C 175 315, 215 325, 235 325
+       C 250 325, 280 280, 285 220
+       C 287 180, 270 135, 250 110 Z"
+    stroke="#ffffff"
+    stroke-width="20"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M 250 110 
+       C 280 160, 325 220, 325 270 
+       C 325 315, 285 325, 265 325
+       C 250 325, 220 280, 215 220
+       C 213 180, 230 135, 250 110 Z"
+    stroke="#ffffff"
+    stroke-width="20"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>
