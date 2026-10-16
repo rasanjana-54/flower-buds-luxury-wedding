@@ -80,7 +80,7 @@ export const Footer = ({ onOpenBooking }) => {
                 <MapPin className="w-4 h-4 text-[#C5B49E] shrink-0 mt-0.5" />
                 <span>
                   <strong>Kurunegala Branch:</strong><br />
-                  Colombo Road, Kurunegala
+                  160 Dambulla Road, Kurunegala
                 </span>
               </li>
               <li className="flex items-start gap-2">
