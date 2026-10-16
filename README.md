@@ -1,18 +1,70 @@
+# Flower Buds — Luxury Wedding & Event Floral Design
 
+Flower Buds is a responsive website for a Sri Lankan wedding and event floral design business. It showcases floral services and past work, helps visitors plan an event budget, and makes it easy to request a consultation.
 
-# Run and deploy your AI Studio app
+## Features
 
-This contains everything you need to run your app locally.
+- Browse wedding and event floral design services.
+- Explore a gallery of event and floral styling work.
+- Estimate a budget by selecting event details and floral elements.
+- Start a consultation request with details from a selected service, gallery item, or estimate.
+- Contact Flower Buds through WhatsApp.
+- Enable or disable the decorative falling-petal effect.
 
-View your app in AI Studio: https://ai.studio/apps/3a127337-334e-4d44-b5b4-97eb08b31017
+## Built With
 
-## Run Locally
+- React
+- Vite
+- Tailwind CSS
+- Lucide icons
 
-**Prerequisites:**  Node.js
+## Requirements
 
+- Node.js (LTS recommended)
+- npm (included with Node.js)
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Getting Started
+
+1. Clone the repository and open the project folder:
+
+   ```bash
+   git clone https://github.com/rasanjana-54/flower-buds-luxury-wedding.git
+   cd flower-buds-luxury-wedding
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open the local URL printed in the terminal (usually `http://localhost:3000`).
+
+## Available Scripts
+
+| Command | Description |
+| --- | --- |
+| `npm run dev` | Start the Vite development server on port 3000. |
+| `npm run build` | Create a production build in the `dist` directory. |
+| `npm run preview` | Preview the production build locally. |
+| `npm run lint` | Run the TypeScript check. |
+
+## Production Build
+
+Build the site with:
+
+```bash
+npm run build
+```
+
+The generated files are placed in `dist/`. To preview the build locally, run:
+
+```bash
+npm run preview
+```
