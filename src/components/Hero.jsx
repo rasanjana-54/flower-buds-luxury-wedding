@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArrowDown, Calendar, Sparkles } from 'lucide-react';
-import { poruwaImg } from '../data/flowerBudsData.js';
+import bridalHandsImg from '../assets/images/bridal-hands.jpg';
 
 export const Hero = ({ onOpenBooking, onExplorePortfolio }) => {
   return (
@@ -65,10 +65,10 @@ export const Hero = ({ onOpenBooking, onExplorePortfolio }) => {
 
           {/* Right Visual Column (Hero Visual Carrier) */}
           <div className="lg:col-span-6 relative">
-            <div className="relative mx-auto rounded-2xl overflow-hidden shadow-xl aspect-16/9 lg:aspect-4/3 bg-[#EAE2D8] border border-[#E2D8CC] group">
+            <div className="relative mx-auto max-w-lg rounded-2xl overflow-hidden shadow-xl aspect-3/4 bg-[#EAE2D8] border border-[#E2D8CC] group">
               <img
-                src={poruwaImg}
-                alt="Grand Sri Lankan Poruwa wedding stage framed with ivory flowers and gold details"
+                src={bridalHandsImg}
+                alt="Bride and groom holding hands beside a fresh white floral garland"
                 className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-102"
                 referrerPolicy="no-referrer"
               />
@@ -77,11 +77,11 @@ export const Hero = ({ onOpenBooking, onExplorePortfolio }) => {
               {/* Minimalist image caption */}
               <div className="absolute bottom-5 left-5 right-5 text-white flex items-end justify-between">
                 <div>
-                  <p className="text-xs uppercase tracking-wider text-white/80 font-medium">Sri Lankan Wedding Heritage</p>
-                  <p className="font-serif text-lg text-white font-medium">The Golden Lotus Poruwa</p>
+                  <p className="text-xs uppercase tracking-wider text-white/80 font-medium">Sri Lankan Wedding Details</p>
+                  <p className="font-serif text-lg text-white font-medium">A Promise in Bloom</p>
                 </div>
                 <span className="text-xs text-white/90 bg-white/20 backdrop-blur-xs px-3 py-1 rounded-full">
-                  Signature Floral Design
+                  Hand-tied fresh florals
                 </span>
               </div>
             </div>
