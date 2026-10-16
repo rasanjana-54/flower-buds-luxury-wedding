@@ -10,9 +10,8 @@ export const PortfolioGallery = ({ onInquireItem }) => {
     { id: 'all', label: 'All Commissions' },
     { id: 'poruwa', label: 'Poruwa & Stages' },
     { id: 'bouquets', label: 'Bridal Bouquets' },
-    { id: 'reception', label: 'Reception Tables' },
-    { id: 'arches', label: 'Ceremonial Arches' },
-    { id: 'events', label: 'Client Photos' }
+    { id: 'reception', label: 'Receptions & Events' },
+    { id: 'arches', label: 'Ceremonial Arches' }
   ];
 
   const filteredItems = useMemo(

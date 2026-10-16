@@ -13,6 +13,14 @@ import clientEvent08 from '../assets/images/client-gallery/client-event-08.jpg';
 import clientEvent09 from '../assets/images/client-gallery/client-event-09.jpg';
 import clientEvent10 from '../assets/images/client-gallery/client-event-10.jpg';
 import clientEvent11 from '../assets/images/client-gallery/client-event-11.jpg';
+import clientEvent12 from '../assets/images/client-gallery/client-event-12.jpg';
+import clientEvent13 from '../assets/images/client-gallery/client-event-13.jpg';
+import clientEvent14 from '../assets/images/client-gallery/client-event-14.png';
+import clientEvent15 from '../assets/images/client-gallery/client-event-15.png';
+import clientEvent16 from '../assets/images/client-gallery/client-event-16.png';
+import clientEvent17 from '../assets/images/client-gallery/client-event-17.jpg';
+import clientEvent18 from '../assets/images/client-gallery/client-event-18.jpg';
+import clientEvent19 from '../assets/images/client-gallery/client-event-19.jpg';
 
 export { heroImg, poruwaImg, bouquetImg, receptionImg };
 
@@ -79,7 +87,7 @@ export const PORTFOLIO_ITEMS = [
     id: 'reception-mount-lavinia',
     title: 'Midnight Velvet & Candelabra Banquet',
     category: 'reception',
-    categoryLabel: 'Reception Tables',
+    categoryLabel: 'Receptions & Events',
     venue: 'Mount Lavinia Hotel Colonial Hall',
     location: 'Mount Lavinia, Sri Lanka',
     palette: ['#0B1B3D', '#C8A97E', '#FFF5EA', '#31493C'],
@@ -98,8 +106,8 @@ export const PORTFOLIO_ITEMS = [
   {
     id: 'client-event-01',
     title: 'A Softly Framed Ceremony Stage',
-    category: 'events',
-    categoryLabel: 'Client Event Gallery',
+    category: 'poruwa',
+    categoryLabel: 'Poruwa & Stages',
     location: 'Sri Lanka',
     image: clientEvent01,
     imageAspect: '3 / 4',
@@ -111,8 +119,8 @@ export const PORTFOLIO_ITEMS = [
   {
     id: 'client-event-02',
     title: 'Ivory Blooms & Warm Lights',
-    category: 'events',
-    categoryLabel: 'Client Event Gallery',
+    category: 'poruwa',
+    categoryLabel: 'Poruwa & Stages',
     location: 'Sri Lanka',
     image: clientEvent02,
     imageAspect: '3 / 4',
@@ -124,8 +132,8 @@ export const PORTFOLIO_ITEMS = [
   {
     id: 'client-event-03',
     title: 'A Garden Ring Ceremony',
-    category: 'events',
-    categoryLabel: 'Client Event Gallery',
+    category: 'arches',
+    categoryLabel: 'Ceremonial Arches',
     location: 'Sri Lanka',
     image: clientEvent03,
     imageAspect: '4 / 3',
@@ -137,8 +145,8 @@ export const PORTFOLIO_ITEMS = [
   {
     id: 'client-event-04',
     title: 'A Modern Green & Ivory Stage',
-    category: 'events',
-    categoryLabel: 'Client Event Gallery',
+    category: 'arches',
+    categoryLabel: 'Ceremonial Arches',
     location: 'Sri Lanka',
     image: clientEvent04,
     imageAspect: '2.08 / 1',
@@ -150,8 +158,8 @@ export const PORTFOLIO_ITEMS = [
   {
     id: 'client-event-05',
     title: 'A Sacred Setting in White & Green',
-    category: 'events',
-    categoryLabel: 'Client Event Gallery',
+    category: 'poruwa',
+    categoryLabel: 'Poruwa & Stages',
     location: 'Sri Lanka',
     image: clientEvent05,
     imageAspect: '3 / 4',
@@ -163,8 +171,8 @@ export const PORTFOLIO_ITEMS = [
   {
     id: 'client-event-06',
     title: 'A Colourful Floral Altar',
-    category: 'events',
-    categoryLabel: 'Client Event Gallery',
+    category: 'poruwa',
+    categoryLabel: 'Poruwa & Stages',
     location: 'Sri Lanka',
     image: clientEvent06,
     imageAspect: '3 / 4',
@@ -176,8 +184,8 @@ export const PORTFOLIO_ITEMS = [
   {
     id: 'client-event-07',
     title: 'A Classic White & Gold Backdrop',
-    category: 'events',
-    categoryLabel: 'Client Event Gallery',
+    category: 'poruwa',
+    categoryLabel: 'Poruwa & Stages',
     location: 'Sri Lanka',
     image: clientEvent07,
     imageAspect: '4 / 3',
@@ -189,8 +197,8 @@ export const PORTFOLIO_ITEMS = [
   {
     id: 'client-event-08',
     title: 'A Celebration of Colour',
-    category: 'events',
-    categoryLabel: 'Client Event Gallery',
+    category: 'poruwa',
+    categoryLabel: 'Poruwa & Stages',
     location: 'Sri Lanka',
     image: clientEvent08,
     imageAspect: '3 / 4',
@@ -202,8 +210,8 @@ export const PORTFOLIO_ITEMS = [
   {
     id: 'client-event-09',
     title: 'A Floral Altar Beneath the Canopy',
-    category: 'events',
-    categoryLabel: 'Client Event Gallery',
+    category: 'arches',
+    categoryLabel: 'Ceremonial Arches',
     location: 'Sri Lanka',
     image: clientEvent09,
     imageAspect: '3 / 4',
@@ -215,8 +223,8 @@ export const PORTFOLIO_ITEMS = [
   {
     id: 'client-event-10',
     title: 'Double Arch & Evening Florals',
-    category: 'events',
-    categoryLabel: 'Client Event Gallery',
+    category: 'arches',
+    categoryLabel: 'Ceremonial Arches',
     location: 'Sri Lanka',
     image: clientEvent10,
     imageAspect: '4 / 3',
@@ -228,14 +236,118 @@ export const PORTFOLIO_ITEMS = [
   {
     id: 'client-event-11',
     title: 'Floral Stage, Framed in Light',
-    category: 'events',
-    categoryLabel: 'Client Event Gallery',
+    category: 'poruwa',
+    categoryLabel: 'Poruwa & Stages',
     location: 'Sri Lanka',
     image: clientEvent11,
     imageAspect: '4 / 3',
     palette: ['#F6F1E8', '#E8D9C8', '#9BA184', '#D1B46D'],
     description: 'A light-filled floral stage with a fresh, layered backdrop for a memorable celebration.',
     floralRecipe: ['Floral stage backdrop', 'Balanced seasonal flower clusters', 'Light, fresh colour palette'],
+    highlight: 'A Flower Buds celebration, captured in bloom.'
+  },
+  {
+    id: 'client-event-12',
+    title: 'Crimson Florals Under the Lights',
+    category: 'reception',
+    categoryLabel: 'Receptions & Events',
+    location: 'Sri Lanka',
+    image: clientEvent12,
+    imageAspect: '3 / 4',
+    palette: ['#281A1B', '#7D1E28', '#D4A15D', '#F6E8CE'],
+    description: 'A lively evening celebration framed by rich red floral arrangements and warm cascading lights.',
+    floralRecipe: ['Crimson rose arrangements', 'Warm decorative lighting', 'Floral stage accents'],
+    highlight: 'A Flower Buds celebration, captured in bloom.'
+  },
+  {
+    id: 'client-event-13',
+    title: 'A Garden-Inspired Bridal Bouquet',
+    category: 'bouquets',
+    categoryLabel: 'Bridal Bouquets',
+    location: 'Sri Lanka',
+    image: clientEvent13,
+    imageAspect: '3 / 4',
+    palette: ['#F7F0E5', '#E9A1A0', '#D7C44D', '#68734F'],
+    description: 'A lush hand-tied bouquet blending soft roses, lilies, seasonal blooms, and a fresh touch of greenery.',
+    floralRecipe: ['Hand-tied seasonal flowers', 'Soft rose and lily accents', 'Fresh greenery and fine filler blooms'],
+    highlight: 'A Flower Buds celebration, captured in bloom.'
+  },
+  {
+    id: 'client-event-14',
+    title: 'Garden Lounge Ceremony Setting',
+    category: 'poruwa',
+    categoryLabel: 'Poruwa & Stages',
+    location: 'Sri Lanka',
+    image: clientEvent14,
+    imageAspect: '4 / 3',
+    palette: ['#E7D6B5', '#65724A', '#9E773E', '#F5EFE4'],
+    description: 'A tranquil lounge setting with sculptural greenery, softly lit trees, and an elegant ceremonial seat.',
+    floralRecipe: ['Layered living greenery', 'Illuminated ornamental trees', 'Natural lounge seating'],
+    highlight: 'A Flower Buds celebration, captured in bloom.'
+  },
+  {
+    id: 'client-event-15',
+    title: 'A Warmly Lit Floral Aisle',
+    category: 'arches',
+    categoryLabel: 'Ceremonial Arches',
+    location: 'Sri Lanka',
+    image: clientEvent15,
+    imageAspect: '4 / 3',
+    palette: ['#F8E6C9', '#D4A16B', '#B47B4C', '#64704D'],
+    description: 'An inviting wedding aisle lined with floral accents and glowing candlelight leading to a softly styled stage.',
+    floralRecipe: ['Low floral aisle arrangements', 'Warm candlelit accents', 'Coordinated ceremony stage'],
+    highlight: 'A Flower Buds celebration, captured in bloom.'
+  },
+  {
+    id: 'client-event-16',
+    title: 'Blush Bridal Portrait in the Garden',
+    category: 'bouquets',
+    categoryLabel: 'Bridal Bouquets',
+    location: 'Sri Lanka',
+    image: clientEvent16,
+    imageAspect: '3 / 4',
+    palette: ['#EADFD2', '#D7A4B5', '#66784B', '#F5F1E8'],
+    description: 'A romantic garden portrait surrounded by leafy greenery, soft lanterns, and a delicate bridal bouquet.',
+    floralRecipe: ['Garden greenery backdrop', 'Blush bridal bouquet', 'Soft hanging lantern accents'],
+    highlight: 'A Flower Buds celebration, captured in bloom.'
+  },
+  {
+    id: 'client-event-17',
+    title: 'Sculpted Ivory Stage & Floral Backdrop',
+    category: 'poruwa',
+    categoryLabel: 'Poruwa & Stages',
+    location: 'Sri Lanka',
+    image: clientEvent17,
+    imageAspect: '4 / 3',
+    palette: ['#F4EEE3', '#D6C6AD', '#B39B7B', '#6D6457'],
+    description: 'A contemporary stage framed by sculptural curves, ivory florals, and a soft warm glow.',
+    floralRecipe: ['Sculptural illuminated backdrop', 'Ivory flower clusters', 'Warm stage lighting'],
+    highlight: 'A Flower Buds celebration, captured in bloom.'
+  },
+  {
+    id: 'client-event-18',
+    title: 'Ivory Drapery & Candlelight',
+    category: 'poruwa',
+    categoryLabel: 'Poruwa & Stages',
+    location: 'Sri Lanka',
+    image: clientEvent18,
+    imageAspect: '4 / 3',
+    palette: ['#F5EFE5', '#D8CCBA', '#A89982', '#62564A'],
+    description: 'Flowing ivory drapery, delicate white blooms, and candlelight create a romantic ceremony setting.',
+    floralRecipe: ['Layered ivory fabric draping', 'White floral arrangements', 'Candlelit ceremony accents'],
+    highlight: 'A Flower Buds celebration, captured in bloom.'
+  },
+  {
+    id: 'client-event-19',
+    title: 'Triple Arch Garden Stage',
+    category: 'arches',
+    categoryLabel: 'Ceremonial Arches',
+    location: 'Sri Lanka',
+    image: clientEvent19,
+    imageAspect: '4 / 3',
+    palette: ['#F7F2E9', '#E4DCC9', '#A5AD8D', '#8B795C'],
+    description: 'A serene triple-arch stage accented with abundant white florals and graceful greenery.',
+    floralRecipe: ['Triple ceremony arch design', 'White floral pillars', 'Soft garden-inspired greenery'],
     highlight: 'A Flower Buds celebration, captured in bloom.'
   }
 ];
