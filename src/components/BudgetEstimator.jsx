@@ -44,7 +44,7 @@ export const BudgetEstimator = ({ onApplyEstimate }) => {
   return (
     <section id="estimator" className="py-24 bg-[#F5EFE8] border-t border-[#EAE1D6]">
       <div className="max-w-7xl mx-auto px-6 md:px-10">
-        <div className="text-center max-w-2xl mx-auto mb-16">
+        <div data-reveal className="text-center max-w-2xl mx-auto mb-16">
           <div className="text-xs uppercase tracking-widest text-[#7C6354] font-medium mb-3 flex items-center justify-center gap-1.5">
             <Calculator className="w-3.5 h-3.5" />
             <span>Interactive Floral Planner</span>
@@ -57,7 +57,7 @@ export const BudgetEstimator = ({ onApplyEstimate }) => {
           </p>
         </div>
 
-        <div className="bg-white rounded-3xl border border-[#E6DDD2] shadow-sm overflow-hidden p-6 md:p-10">
+        <div data-reveal className="bg-white rounded-3xl border border-[#E6DDD2] shadow-sm overflow-hidden p-6 md:p-10">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10">
             {/* Left Controls Configuration */}
             <div className="lg:col-span-7 space-y-8">

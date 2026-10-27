@@ -49,7 +49,7 @@ export const PortfolioGallery = ({ onInquireItem }) => {
   return (
     <section id="portfolio" className="py-24 bg-[#FAF8F5]">
       <div className="max-w-7xl mx-auto px-6 md:px-10">
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+        <div data-reveal className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
           <div>
             <div className="text-xs uppercase tracking-widest text-[#7C6354] font-medium mb-3">
               Selected Works
@@ -67,7 +67,7 @@ export const PortfolioGallery = ({ onInquireItem }) => {
         </div>
 
         {/* Filter Navigation */}
-        <div className="flex flex-wrap items-center gap-2 mb-12 border-b border-[#EAE3DA] pb-4">
+        <div data-reveal className="flex flex-wrap items-center gap-2 mb-12 border-b border-[#EAE3DA] pb-4">
           {categories.map((cat) => (
             <button
               key={cat.id}
@@ -89,6 +89,8 @@ export const PortfolioGallery = ({ onInquireItem }) => {
           {filteredItems.map((item, index) => (
             <div
               key={item.id}
+              data-reveal
+              style={{ '--reveal-delay': `${(index % 3) * 80}ms` }}
               className="group bg-white rounded-2xl border border-[#E8E1D7] overflow-hidden hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col"
             >
               <div
@@ -172,7 +174,7 @@ export const PortfolioGallery = ({ onInquireItem }) => {
       {/* Lightbox Modal */}
       {activeModalItem && (
         <div
-          className="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4 md:p-8 overflow-y-auto"
+          className="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4 md:p-8 overflow-y-auto modal-backdrop-enter"
           onClick={(event) => {
             if (event.target === event.currentTarget) setActiveModalItem(null);
           }}
@@ -181,7 +183,7 @@ export const PortfolioGallery = ({ onInquireItem }) => {
             role="dialog"
             aria-modal="true"
             aria-labelledby="portfolio-modal-title"
-            className="bg-[#FAF8F5] max-w-5xl w-full rounded-2xl overflow-hidden shadow-2xl border border-[#E6DDD2] relative my-auto"
+            className="bg-[#FAF8F5] max-w-5xl w-full rounded-2xl overflow-hidden shadow-2xl border border-[#E6DDD2] relative my-auto modal-panel-enter"
           >
             {/* Close button */}
             <button

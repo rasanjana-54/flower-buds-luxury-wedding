@@ -8,7 +8,7 @@ export const Footer = ({ onOpenBooking }) => {
       <div className="max-w-7xl mx-auto px-6 md:px-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 pb-16 border-b border-[#2B3830]">
           {/* Brand Info */}
-          <div className="lg:col-span-5 space-y-4">
+          <div data-reveal className="lg:col-span-5 space-y-4">
             <div className="flex items-center gap-3">
               <FlowerBudsLogo className="w-10 h-10" variant="colored" />
               <span className="font-serif text-3xl font-normal tracking-tight text-white block">
@@ -58,7 +58,7 @@ export const Footer = ({ onOpenBooking }) => {
           </div>
 
           {/* Navigation links */}
-          <div className="lg:col-span-2 space-y-3">
+          <div data-reveal style={{ '--reveal-delay': '80ms' }} className="lg:col-span-2 space-y-3">
             <div className="text-xs uppercase tracking-wider text-[#C5B49E] font-semibold">
               Explore
             </div>
@@ -71,7 +71,7 @@ export const Footer = ({ onOpenBooking }) => {
           </div>
 
           {/* Studios & Locations */}
-          <div className="lg:col-span-2 space-y-3">
+          <div data-reveal style={{ '--reveal-delay': '160ms' }} className="lg:col-span-2 space-y-3">
             <div className="text-xs uppercase tracking-wider text-[#C5B49E] font-semibold">
               Branch Studios
             </div>
@@ -94,7 +94,7 @@ export const Footer = ({ onOpenBooking }) => {
           </div>
 
           {/* Direct Contact & Action */}
-          <div className="lg:col-span-3 space-y-4">
+          <div data-reveal style={{ '--reveal-delay': '240ms' }} className="lg:col-span-3 space-y-4">
             <div className="text-xs uppercase tracking-wider text-[#C5B49E] font-semibold">
               Inquiries & Bookings
             </div>

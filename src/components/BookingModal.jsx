@@ -63,8 +63,8 @@ export const BookingModal = ({
   };
 
   return (
-    <div className="fixed inset-0 z-50 bg-black/75 backdrop-blur-xs flex items-center justify-center p-4 md:p-6 overflow-y-auto">
-      <div className="bg-[#FAF8F5] max-w-2xl w-full rounded-3xl overflow-hidden shadow-2xl border border-[#E6DDD2] relative my-auto">
+    <div className="fixed inset-0 z-50 bg-black/75 backdrop-blur-xs flex items-center justify-center p-4 md:p-6 overflow-y-auto modal-backdrop-enter">
+      <div className="bg-[#FAF8F5] max-w-2xl w-full rounded-3xl overflow-hidden shadow-2xl border border-[#E6DDD2] relative my-auto modal-panel-enter">
         {/* Close Button */}
         <button
           type="button"

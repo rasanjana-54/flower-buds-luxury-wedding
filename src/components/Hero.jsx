@@ -12,7 +12,7 @@ export const Hero = ({ onOpenBooking, onExplorePortfolio }) => {
       <div className="max-w-7xl mx-auto px-6 md:px-10 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
           {/* Left Text Column */}
-          <div className="lg:col-span-6 space-y-6">
+          <div className="lg:col-span-6 space-y-6 hero-entrance">
             <div className="flex items-center gap-2 text-xs font-medium text-[#7C6354] uppercase tracking-widest">
               <span>Bespoke Floral Architecture</span>
               <span aria-hidden="true">·</span>
@@ -64,7 +64,7 @@ export const Hero = ({ onOpenBooking, onExplorePortfolio }) => {
           </div>
 
           {/* Right Visual Column (Hero Visual Carrier) */}
-          <div className="lg:col-span-6 relative">
+          <div className="lg:col-span-6 relative hero-visual-entrance">
             <div className="relative mx-auto max-w-lg rounded-2xl overflow-hidden shadow-xl aspect-square bg-[#EAE2D8] border border-[#E2D8CC] group">
               <img
                 src={floralAisleImg}

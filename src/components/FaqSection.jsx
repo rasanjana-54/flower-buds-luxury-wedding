@@ -12,7 +12,7 @@ export const FaqSection = () => {
   return (
     <section id="faq" className="py-24 bg-[#F5EFE8] border-t border-[#EAE1D6]">
       <div className="max-w-4xl mx-auto px-6 md:px-10">
-        <div className="text-center mb-16">
+        <div data-reveal className="text-center mb-16">
           <div className="text-xs uppercase tracking-widest text-[#7C6354] font-medium mb-3 flex items-center justify-center gap-1.5">
             <HelpCircle className="w-3.5 h-3.5" />
             <span>Frequently Asked Questions</span>
@@ -31,6 +31,8 @@ export const FaqSection = () => {
             return (
               <div
                 key={index}
+                data-reveal
+                style={{ '--reveal-delay': `${index * 70}ms` }}
                 className="bg-white rounded-2xl border border-[#E6DDD2] overflow-hidden transition-all"
               >
                 <button

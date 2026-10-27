@@ -35,7 +35,7 @@ export const ServicesSection = ({ onSelectService }) => {
   return (
     <section id="services" className="py-24 bg-[#F5EFE8] border-t border-[#EAE1D6]">
       <div className="max-w-7xl mx-auto px-6 md:px-10">
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+        <div data-reveal className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
           <div>
             <div className="text-xs uppercase tracking-widest text-[#7C6354] font-medium mb-3">
               Artisanal Capabilities
@@ -50,7 +50,7 @@ export const ServicesSection = ({ onSelectService }) => {
         </div>
 
         {/* Feature Spotlight with interactive toggle */}
-        <div className="mb-20 bg-white rounded-2xl border border-[#E6DDD2] p-6 lg:p-8 shadow-xs">
+        <div data-reveal className="mb-20 bg-white rounded-2xl border border-[#E6DDD2] p-6 lg:p-8 shadow-xs">
           <div className="flex flex-wrap gap-2 border-b border-[#EFEAE2] pb-4 mb-8">
             {visualPreviews.map((preview, index) => (
               <button
@@ -114,7 +114,9 @@ export const ServicesSection = ({ onSelectService }) => {
           {SERVICES_LIST.map((service) => (
             <div
               key={service.number}
-              className="bg-[#FAF8F5] p-8 rounded-xl border border-[#E8DFD3] hover:border-[#C4B29E] hover:shadow-md transition-all flex flex-col justify-between group"
+              data-reveal
+              style={{ '--reveal-delay': `${(Number(service.number) - 1) * 90}ms` }}
+              className="bg-[#FAF8F5] p-8 rounded-xl border border-[#E8DFD3] hover:border-[#C4B29E] hover:-translate-y-1 hover:shadow-lg transition-all duration-300 flex flex-col justify-between group"
             >
               <div>
                 <div className="flex items-center justify-between mb-4">

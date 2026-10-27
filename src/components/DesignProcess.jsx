@@ -32,7 +32,7 @@ export const DesignProcess = () => {
   return (
     <section className="py-24 bg-[#EEE5F5] border-t border-[#DCCFEA]">
       <div className="max-w-7xl mx-auto px-6 md:px-10">
-        <div className="text-center max-w-2xl mx-auto mb-16">
+        <div data-reveal className="text-center max-w-2xl mx-auto mb-16">
           <div className="text-xs uppercase tracking-widest text-[#7C6354] font-medium mb-3">
             The Flower Buds Journey
           </div>
@@ -50,7 +50,9 @@ export const DesignProcess = () => {
             return (
               <div
                 key={step.number}
-                className="bg-[#FAF8F5] p-8 rounded-2xl border border-[#E8DFD3] flex flex-col justify-between hover:shadow-md transition-shadow relative"
+                data-reveal
+                style={{ '--reveal-delay': `${index * 100}ms` }}
+                className="bg-[#FAF8F5] p-8 rounded-2xl border border-[#E8DFD3] flex flex-col justify-between hover:shadow-md hover:-translate-y-1 transition-all duration-300 relative"
               >
                 <div>
                   <div className="flex items-center justify-between mb-6">

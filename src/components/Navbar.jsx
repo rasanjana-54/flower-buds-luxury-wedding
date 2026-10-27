@@ -96,7 +96,7 @@ export const Navbar = ({
 
       {/* Mobile Navigation Drawer */}
       {mobileMenuOpen && (
-        <div className="fixed inset-0 z-40 bg-[#FAF8F5] pt-24 px-6 pb-8 lg:hidden flex flex-col justify-between overflow-y-auto">
+        <div className="fixed inset-0 z-40 bg-[#FAF8F5] pt-24 px-6 pb-8 lg:hidden flex flex-col justify-between overflow-y-auto mobile-menu-enter">
           <div className="space-y-6 text-center">
             <div className="flex flex-col items-center justify-center gap-2 mb-6">
               <FlowerBudsLogo className="w-14 h-14" variant="colored" />
